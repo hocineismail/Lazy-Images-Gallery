@@ -39,7 +39,7 @@ const LazyImage: React.FC<LazyImageProps> = ({ src, alt }) => {
       ref={imageRef}
       src={src + `?w=10`}
       alt={alt}
-      data-src={src + `?w=1800`}
+      data-src={src + `?w=800`}
     />
   );
 };
