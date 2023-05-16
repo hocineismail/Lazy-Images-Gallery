@@ -17,7 +17,7 @@ const LazyImage: React.FC<LazyImageProps> = ({ src, alt }) => {
           setIsIntersecting(entry.isIntersecting);
         }
       },
-      { rootMargin: "-300px" }
+      { rootMargin:  "0px 0px 300px 0px" }
     );
 
     observer.observe(imageRef.current);
