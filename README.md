@@ -1,5 +1,5 @@
 
-# Lazy-Images-Gallery
+# Lazy-Images-Gallery [#Demo](https://lazy-images-gallery.netlify.app)
 ![alt text](https://raw.githubusercontent.com/hocineismail/Lazy-Images-Gallery/main/public/gallary.png?raw=true)
 ## 📜 Description
 
@@ -12,7 +12,7 @@ Lazy-Images-Gallery is a dynamic image gallery that utilizes lazy loading techni
 
 ## 🌐 Links
 
-* [Deployed] Not Yet
+* [Deployed] [ Lazy-Images-Gallery](https://lazy-images-gallery.netlify.app)
  
 
 ## 💻 Tech Requirements
