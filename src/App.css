@@ -1,7 +1,70 @@
 .App {
   text-align: center;
 }
+html {
+  overflow-x: hidden;
+}
+html,
+body {
+  width: 100%;
+}
+.container {
+  width: 100%;
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  margin-right: auto;
+  margin-left: auto;
+}
+.flexbox {
+  display: grid;
 
+  grid-template-rows: masonry;
+  gap: 30px;
+}
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+
+  .flexbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+  .flexbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+  .flexbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+  .flexbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
