@@ -15,7 +15,7 @@ Lazy-Images-Gallery is a dynamic image gallery that utilizes lazy loading techni
 * [Deployed] [ Lazy-Images-Gallery](https://lazy-images-gallery.netlify.app)
  
 
-## 💻 Tech Requirements
+## 💻 Tech Used
 
 - [x] React
 - [x] Tests: Jest + react-testing-library / enzyme
